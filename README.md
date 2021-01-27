@@ -5,4 +5,5 @@
 #Tech Stacks Used:#
 
 *Gatsby
-*React-spring
+*React-Spring
+\*Typography.js
