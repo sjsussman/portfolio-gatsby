@@ -1,12 +1,16 @@
 import React from "react"
+import Navbar from "../components/Navbar/Navbar"
 
 import { TransitionProvider, TransitionViews } from "gatsby-plugin-transitions"
 
 const Layout = ({ location, children }) => {
   return (
-    <TransitionProvider location={location}>
-      <TransitionViews>{children}</TransitionViews>
-    </TransitionProvider>
+    <>
+      <Navbar />
+      <TransitionProvider location={location}>
+        <TransitionViews>{children}</TransitionViews>
+      </TransitionProvider>
+    </>
   )
 }
 

@@ -7,6 +7,7 @@
 module.exports = {
   plugins: [
     "gatsby-plugin-layout",
+    "gatsby-plugin-styled-components",
     {
       resolve: `gatsby-plugin-typography`,
       options: {
